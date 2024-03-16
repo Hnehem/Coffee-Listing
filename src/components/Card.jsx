@@ -5,7 +5,7 @@ export default function Card({ product }) {
   const { available, id, image, name, popular, price, rating, votes } = product;
 
   return (
-    <article id={id} className="card">
+    <article key={id} id={id} className="card">
       <div className="card-view">
         <img src={image} alt={`${name} image`} />
         {popular && <span>Popular</span>}
