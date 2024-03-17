@@ -12,7 +12,7 @@ body {
   font-weight: 600;
   color: #FEF7EE;
   background-color: #111315;
-  background-image: url('./assets/img/bg-cafe.jpg');
+  background-image: url('assets/img/bg-cafe.jpg');
   background-size: 100% 288px;
   background-repeat: no-repeat;
 }
